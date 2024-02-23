@@ -1,0 +1,47 @@
+GitLab Tutorials: 2/22/2024
+Github Account: Sometime early-mid January 2024
+
+1. C:\Users\parke\Desktop\Capstone\assignment2>git commit
+[master 963477a] iiiiiiii enter the commit message for your changes. Lines starting docs file creation A new folder has been created to store info pertaining to the assignment
+ 1 file changed, 5 insertions(+)
+ create mode 100644 docs/status.txt
+
+C:\Users\parke\Desktop\Capstone\assignment2>git push
+info: please complete authentication in your browser...
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 802 bytes | 802.00 KiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/PCreaux/assignment2.git
+   d39c491..963477a  master -> master
+
+2. 10 is the number of commits. 6 by Esteban Parra and 4 by me. 
+The git command is shortlog
+
+3.Thursday February 22, 19:09:34, using git log
+
+4.Branches are useful due to their nature of being non-commital.
+If changes are made that need to be walked back or removed entirely,
+it is easier to delete a branch than refactor the entire project. They also
+offer modularity if multiple programmers are working on the same project.
+
+5.git status shows repository details including tracked and untracked files, modifications, 
+and info on all branches. git log only shows current branch commit history
+
+6.git log -follow Vehicle.h
+
+7.git log --grep "file"
+
+8. Inheritance: allows on class to inherit properties from a seperate class.
+Polymorphism: The ability for data of similar types to do different things
+Encapsulation: keeping portions of code "contained". The less that is accessible
+to other portions of code, the less potential for error.
+
+9.The main difference beween the two is developers are not pushing to the same repository
+at any point in time in the Integration Manager workflow. They do in the Dictator
+and Lieutenants workflow.
+
+10.Due to the number of developers, there would be less potential for version conflict using D&L.
